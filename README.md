@@ -180,7 +180,9 @@ me.say_hi()
   
 ### ✨ *"Code is poetry written in logic"* ✨
 
-![Snake animation](https://github.com/yosaad1000/yosaad1000/blob/output/github-contribution-grid-snake.svg)
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer&text=Thanks%20for%20visiting!&fontSize=16&fontColor=fff&animation=twinkling"/>
+</div>
 
 **⭐ From [yosaad1000](https://github.com/yosaad1000) | Let's build the future together! 🚀**
 
