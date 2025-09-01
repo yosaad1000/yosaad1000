@@ -103,7 +103,7 @@ me.say_hi()
 
 ---
 
-## 📊 GitHub Analytics
+## 📊 GitHub Analytics & Snake Game
 
 <div align="center">
   
@@ -115,6 +115,26 @@ me.say_hi()
 <div align="center">
   
 [![GitHub Streak](https://streak-stats.demolab.com?user=yosaad1000&theme=react&hide_border=true&background=0D1117)](https://git.io/streak-stats)
+
+</div>
+
+### 🐍 Watch the Snake Devour My Contributions!
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/yosaad1000/yosaad1000/blob/output/github-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://github.com/yosaad1000/yosaad1000/blob/output/github-snake.svg">
+    <img alt="GitHub Snake Animation" src="https://github.com/yosaad1000/yosaad1000/blob/output/github-snake.svg">
+  </picture>
+</div>
+
+### 🎮 Want to Play? Try My Interactive Snake Game!
+
+<div align="center">
+  
+[![Play Snake Game](https://img.shields.io/badge/🎮-Play_Interactive_Snake-00D9FF?style=for-the-badge&logo=gamemaker&logoColor=white)](https://yosaad1000.github.io/snake-game)
+[![Ocean Theme](https://img.shields.io/badge/🌊-Ocean_Snake-4ECDC4?style=for-the-badge)](https://github.com/yosaad1000/yosaad1000/blob/output/ocean-snake.gif)
+[![Matrix Theme](https://img.shields.io/badge/💚-Matrix_Snake-00FF00?style=for-the-badge)](https://github.com/yosaad1000/yosaad1000/blob/output/matrix-snake.gif)
 
 </div>
 
