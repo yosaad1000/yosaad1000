@@ -1,0 +1,43 @@
+name: Generate GitHub Snake Animation
+
+on:
+  # Runs daily at midnight UTC
+  schedule:
+    - cron: "0 0 * * *"
+  # Allows manual trigger
+  workflow_dispatch:
+  # Runs on push to main branch
+  push:
+    branches: [ main ]
+
+jobs:
+  generate:
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Generate Snake Animation
+        uses: Platane/snk@v3
+        with:
+          github_user_name: yosaad1000
+          outputs: |
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
+            dist/ocean-snake.gif?color_snake=#00D9FF&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
+            dist/neon-snake.gif?color_snake=#FF6B6B&color_dots=#FF6B6B,#4ECDC4,#45B7D1,#96CEB4,#FFEAA7
+            dist/matrix-snake.gif?color_snake=#00FF00&color_dots=#001100,#003300,#005500,#007700,#00FF00
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Push to Output Branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
