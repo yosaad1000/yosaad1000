@@ -133,8 +133,7 @@ me.say_hi()
 <div align="center">
   
 [![Play Snake Game](https://img.shields.io/badge/🎮-Play_Interactive_Snake-00D9FF?style=for-the-badge&logo=gamemaker&logoColor=white)](https://yosaad1000.github.io/snake-game)
-[![Ocean Theme](https://img.shields.io/badge/🌊-Ocean_Snake-4ECDC4?style=for-the-badge)](https://github.com/yosaad1000/yosaad1000/blob/output/ocean-snake.gif)
-[![Matrix Theme](https://img.shields.io/badge/💚-Matrix_Snake-00FF00?style=for-the-badge)](https://github.com/yosaad1000/yosaad1000/blob/output/matrix-snake.gif)
+
 
 </div>
 
